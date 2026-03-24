@@ -1,9 +1,23 @@
 # Habit Tracker
 
-A simple and interactive web-based habit tracking tool that allows users to track daily activities with multiple check-ins and visualize trends over time.
+🚀 **Live Demo:**  
+https://yingyue-kou.github.io/habit-tracker/
 
-## 🔗 Live Demo
-👉 https://yingyue-kou.github.io/habit-tracker/
+📦 **Installable App (PWA)** – This app can be installed and used like a native application with offline support.
+
+---
+
+## 📸 Preview
+
+![App Screenshot](screenshot.png)
+
+---
+
+## 📊 Overview
+
+Habit Tracker is a lightweight, interactive web application designed to help users track daily habits with multiple check-ins and visualize progress over time.
+
+The application is built as a **Progressive Web App (PWA)**, providing an app-like experience with installability and offline capabilities.
 
 ---
 
@@ -15,55 +29,32 @@ A simple and interactive web-based habit tracking tool that allows users to trac
 - Edit habit name and color  
 - Reorder habits (move up/down)  
 - Trend visualization (week / month / year)  
-- Local storage (data persists in browser)
+- Local data persistence (browser storage)  
+- Installable as a desktop/mobile app  
+- Offline support via caching  
+
+---
+
+## ⚡ Technical Highlights
+
+- Built as a **Progressive Web App (PWA)** with installable functionality  
+- Implemented **Service Worker caching** for offline access  
+- Designed dynamic UI updates using **vanilla JavaScript (DOM manipulation)**  
+- Developed client-side data persistence using **LocalStorage**  
+- Created interactive trend visualization without external libraries  
+- Structured project with separation of concerns (HTML / CSS / JavaScript)  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML
-- CSS
-- JavaScript (Vanilla JS)
-- LocalStorage (for data persistence)
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla JS)  
+- LocalStorage  
+- Service Worker  
+- Web App Manifest  
 
 ---
 
-## 📊 Project Highlights
-
-- Designed and developed a fully functional front-end web application from scratch  
-- Implemented dynamic UI updates using JavaScript DOM manipulation  
-- Built custom data persistence logic using browser LocalStorage  
-- Created interactive trend visualization without external libraries  
-- Focused on clean UI/UX and user-friendly interactions  
-
----
-
-## 🚀 How to Use
-
-1. Add a habit with a name and color  
-2. Click the button to check in (multiple times per day supported)  
-3. Edit or reorder habits as needed  
-4. View trends in weekly, monthly, or yearly format  
-
----
-
-## 📌 Future Improvements
-
-- Cloud sync / user accounts  
-- Data export (CSV / Excel)  
-- Mobile app version (Mini Program or React Native)  
-- Advanced analytics  
-
----
-
-## 👤 Author
-
-**Yingyue Kou**  
-Master’s student in Strategic Information Systems Management  
-Stockholm University  
-
----
-
-## 📄 Notes
-
-This project was built as a personal practice project to strengthen front-end development skills and demonstrate practical application of data tracking and visualization.
+## 📁 Project Structure

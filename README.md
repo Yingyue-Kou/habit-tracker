@@ -58,3 +58,45 @@ The application is built as a **Progressive Web App (PWA)**, providing an app-li
 ---
 
 ## 📁 Project Structure
+
+index.html
+style.css
+script.js
+manifest.json
+sw.js
+icon-192.png
+icon-512.png
+
+---
+
+## 🚀 How to Use
+
+1. Add a habit with a name and color  
+2. Click to check in (supports multiple times per day)  
+3. Edit or reorder habits as needed  
+4. Switch between week / month / year views  
+5. (Optional) Install the app from the browser for a native-like experience  
+
+---
+
+## 📌 Future Improvements
+
+- Cloud synchronization (user accounts)  
+- Data export (CSV / Excel)  
+- Advanced analytics and insights  
+- Mobile-native version (React Native / Mini Program)  
+- Backend integration for cross-device usage  
+
+---
+
+## 👤 Author
+
+**Yingyue Kou**  
+Master’s student in Strategic Information Systems Management  
+Stockholm University  
+
+---
+
+## 📄 Notes
+
+This project was developed as a hands-on practice to strengthen front-end development skills and demonstrate the implementation of modern web application features such as PWA, local data persistence, and interactive data visualization.

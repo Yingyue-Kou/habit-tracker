@@ -4,8 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Habit Tracker</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#5b7cfa" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("./sw.js")
+        .then(() => console.log("Service Worker registered"))
+        .catch((error) => console.log("Service Worker registration failed:", error));
+    });
+  }
+</script>
 <body>
   <div class="container">
     <header>
